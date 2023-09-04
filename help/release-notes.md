@@ -1,25 +1,25 @@
 ---
-title: AEM Información general sobre formularios adaptables sin encabezado
-description: AEM Información general sobre los formularios adaptables sin encabezado de.
+title: Información general de formularios adaptables sin encabezado de AEM
+description: Información general de los formularios adaptables sin encabezado de AEM.
 hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 source-git-commit: 0127f8ddede38083f0932b0e8d7efdd0dd77c3a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Notas de versión
+# Notas de la versión
 
-Bienvenido al lanzamiento anticipado de los formularios adaptables sin encabezado de Experience Manager. Siga leyendo para obtener recursos e instrucciones para empezar y sacar el máximo partido a la versión.
+Le damos la bienvenida a la versión para principiantes de los formularios adaptables sin encabezado de Experience Manager. Continúe leyendo para conocer recursos e instrucciones para comenzar y aprovechar al máximo el lanzamiento.
 
-Puede utilizar formularios adaptables sin encabezado de Adobe Experience Manager para crear aplicaciones de formularios utilizando marcos de interfaz de usuario front-end como React, Angular y más, y utilizar el SDK web de Forms adaptable para funciones como administración de estado, validación e integraciones con otros puntos de contacto.
+Puede utilizar formularios adaptables sin encabezado de Adobe Experience Manager para crear aplicaciones de formularios utilizando marcos de IU front-end como React, Angular y más, y emplear el SDK web de formularios adaptables para capacidades como gestión de estado, validación e integraciones con otros puntos de contacto.
 
-La versión de adopción anticipada le permite utilizar formularios adaptables sin encabezado en un [entorno de desarrollo local](setup-development-environment.md). Puede utilizar el entorno de desarrollo local para crear y probar formularios adaptables sin encabezado.
+La versión para principiantes le proporciona acceso para utilizar formularios adaptables sin encabezado en un [entorno de desarrollo local](setup-development-environment.md). Puede utilizar el entorno de desarrollo local para crear y probar formularios adaptables sin encabezado.
 
-Los formularios adaptables sin encabezado reciben mejoras de forma continua. Para estar al día de los desarrollos más recientes, visite esta página regularmente. Esta página le proporciona información sobre el acceso anticipado, las últimas versiones, las nuevas funciones, las mejoras, las correcciones de errores, la funcionalidad obsoleta, las instrucciones especiales y los planes futuros de cambios.
+Los formularios adaptables sin encabezado reciben mejoras de forma continua. Para estar al día de los desarrollos más recientes, visite esta página regularmente. Esta página le brinda información acerca del acceso temprano, las últimas versiones, nuevas funciones, mejoras, correcciones de errores, funcionalidades obsoletas, instrucciones especiales y planes futuros de cambios.
 
 <!-- 
 
@@ -40,17 +40,17 @@ Los formularios adaptables sin encabezado reciben mejoras de forma continua. Par
 
 <!-- ### React Renderer component -->
 
-## Artefactos disponibles en la versión preliminar del usuario
+## Artefactos disponibles en la versión para principiantes
 
-Con el recorrido de acercarle formularios adaptables sin encabezado de Adobe Experience Manager, los siguientes artefactos están disponibles en la versión de usuario inicial:
+En el recorrido para ofrecerle los formularios adaptables sin encabezado de Adobe Experience Manager, los siguientes artefactos están disponibles en la versión para principiantes:
 
-### SDK as a Cloud Service de AEM Forms
+### SDK de AEM Forms as a Cloud Service
 
-El SDK as a Cloud Service de AEM Forms le ayudará a crear, almacenar y recuperar formularios adaptables sin encabezado. También ayuda a proporcionar servicios de relleno previo, validación de reglas del lado del servidor y envío para formularios adaptables sin encabezado.
+El SDK de AEM Forms as a Cloud Service para ayudarle a crear, almacenar y recuperar formularios adaptables sin encabezado. También proporciona servicios de rellenado previo, validación de reglas del lado del servidor y envío para formularios adaptables sin encabezado.
 
 ### SDK web de Forms
 
-El SDK web de Forms proporciona las API para validar las restricciones aplicadas a varios campos de un formulario y los vínculos para conectar la estructura JSON del formulario al marco de la interfaz de usuario. También proporciona el Procesador React&#x200B; para formularios adaptables sin encabezado, que le ayudará a integrar un formulario adaptable sin encabezado en su aplicación. Los siguientes componentes del SDK web están disponibles:
+El SDK web de Forms proporciona las API para validar las restricciones aplicadas a varios campos de un formulario y vínculos para conectar la estructura JSON del formulario al marco de la IU. También facilita el procesador React para formularios adaptables sin encabezado para ayudarle a integrarlos en su aplicación. Los siguientes componentes del SDK web están disponibles:
 
 * **[@aemforms/af-react-components](https://www.npmjs.com/package/@aemforms/af-react-components)**
 * **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
@@ -60,25 +60,25 @@ El SDK web de Forms proporciona las API para validar las restricciones aplicadas
 
 #### Storybook
 
-[Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) proporciona información general sobre los distintos componentes de los formularios adaptables sin encabezado. También proporciona una lista de todos los componentes compatibles, sus propiedades correspondientes y restricciones.
+[Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) proporciona información general de los diferentes componentes de los formularios adaptables sin encabezado. También proporciona una lista de todos los componentes admitidos, sus correspondientes propiedades y restricciones.
 
 ### Componente principal de Forms
 
 <!-- Forms components are the structural elements that constitute the content of the form being authored. These components provide various form fields and ability to customize those fields. -->
 
-Los componentes principales son un conjunto de componentes estandarizados de administración de contenido web (WCM) que le ayudan a acelerar el tiempo de desarrollo y reducir el coste de mantenimiento de los formularios. El componente Contenedor de Forms es un componente principal. Ayuda a incrustar y procesar una estructura JSON de formulario adaptable sin encabezado en el editor de Forms adaptable del SDK as a Cloud Service de Forms.
+Los componentes principales son un conjunto de componentes estandarizados de la administración de contenido web (WCM) para ayudarle a acelerar el tiempo de desarrollo y reducir el coste de mantenimiento de sus formularios. El componente Contenedor de Forms es el principal. Le ayuda a incrustar y procesar una estructura JSON de formulario adaptable sin encabezado en el editor de formularios adaptables del SDK de Forms as a Cloud Service.
 
-### Especificaciones de la versión 2.0 de Forms adaptable
+### Especificaciones de formularios adaptables V2
 
-La especificación de formularios adaptables sin encabezado proporciona información detallada sobre todos los componentes, restricciones y métodos disponibles para definir formularios adaptables sin encabezado. La especificación está disponible en [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf) formato.
+La especificación de formularios adaptables sin encabezado proporciona información detallada sobre todos los componentes, restricciones y métodos disponibles para definir formularios adaptables sin encabezado. La especificación está disponible en formato [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf).
 
-### API HTTP y JS
+### API de HTTP y JS
 
-[API de HTTP](https://opensource.adobe.com/aem-forms-af-runtime/api/) le permite enumerar, recuperar, validar, enviar y rastrear el estado de envío de formularios sin encabezado. [API de JS](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) le ayuda a utilizar formularios adaptables sin encabezado con cualquier marco de trabajo de IU basado en JavaScript.
+Las [API de HTTP](https://opensource.adobe.com/aem-forms-af-runtime/api/) le permiten enumerar, recuperar, validar, enviar y seguir el estado de envío de los formularios sin encabezado. La [API de JS](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) le ayuda a utilizar formularios adaptables sin encabezado con cualquier marco de IU basado en JavaScript.
 
 ### Extensión de código de Visual Studio
 
-[Extensión de código de Visual Studio](visual-studio-code-extension-for-headless-adaptive-forms.md) para ayudar a crear una estructura JSON válida. Proporciona compatibilidad y validación con IntelliSense para la estructura de formularios JSON junto con funciones comunes como agregar, eliminar o cambiar el nombre de componentes de una estructura JSON.
+[Extensión de código de Visual Studio](visual-studio-code-extension-for-headless-adaptive-forms.md) para crear una estructura JSON válida. Proporciona soporte y validación de IntelliSense para la estructura JSON de formularios junto con funciones comunes como añadir, eliminar o cambiar el nombre de componentes de una estructura JSON.
 
 <!-- ## What's next
 
