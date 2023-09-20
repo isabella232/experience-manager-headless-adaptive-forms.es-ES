@@ -12,19 +12,19 @@ topic-tags: develop
 hide: true
 exl-id: 46df943c-0622-4b3b-a802-85c39ac6a734
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2189'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
-# Creación de formularios atractivos con componentes principales y sin encabezado Forms AEM adaptable en Forms de 6.5 {#build-engaging-forms-using-core-components-and-headless}
+# Creación de formularios atractivos con componentes principales y sin encabezado Formularios adaptables en AEM Forms 6.5 {#build-engaging-forms-using-core-components-and-headless}
 
 ## Información general del laboratorio {#lab-overview}
 
 En este laboratorio práctico, aprenderá lo siguiente:
 
-Cómo utilizar AEM Forms para crear fácilmente Forms adaptable mediante los componentes principales más recientes y coherentes con AEM Sites, habilite experiencias de captura de datos omnicanal al ofrecer Forms adaptable como formularios sin encabezado para la web, el móvil y el chat. También aprenderá las prácticas recomendadas sobre el estilo, las personalizaciones y el desarrollo front-end.
+Utilizar AEM Forms para crear fácilmente formularios adaptables utilizando los componentes principales más recientes que son coherentes con AEM Sites, habilitar experiencias de captura de datos omnicanal al enviar los formularios adaptables como formularios sin encabezado a la web, dispositivos móviles y chat. También aprenderá las prácticas recomendadas sobre el estilo, las personalizaciones y el desarrollo front-end.
 
 ## Puntos clave {#key-takeaways}
 
@@ -38,23 +38,23 @@ Cómo utilizar AEM Forms para crear fácilmente Forms adaptable mediante los com
 
 Para usar este laboratorio práctico:
 
-* Instale el [última versión de Git](https://git-scm.com/downloads). Si es nuevo en Git, consulte [Instalación de Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Instale la [última versión de Git](https://git-scm.com/downloads). Si es nuevo en Git, consulte [Instalación de Git](https://git-scm.com/book/es/v2/Getting-Started-Installing-Git).
 
-* Instalar [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Instale [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [Habilitar Forms adaptable sin encabezado](enable-headless-adaptive-forms-and-core-components.md) AEM en su entorno de Forms de 6.5.
+* [Habilite formularios adaptables sin encabezado](enable-headless-adaptive-forms-and-core-components.md) en el entorno AEM 6.5 Forms.
 
-* Instalar [Microsoft Visual Studio Code](https://code.visualstudio.com/download) o cualquier editor de texto sin formato. Los ejemplos del documento utilizan código de Microsoft Visual Studio.
+* Instale [Microsoft Visual Studio Code](https://code.visualstudio.com/download) o cualquier editor de texto sin formato. Los ejemplos del documento utilizan código de Microsoft Visual Studio Code.
 
 ## Lección 1 {#lesson-1}
 
 ### Objetivo {#lesson-1-objectives}
 
-AEM Familiarícese con el entorno de Forms de la versión 6.5 de.
+Familiarícese con el entorno AEM Forms 6.5
 
 ### Contexto de la lección {#lesson-1-context}
 
-AEM En esta lección, puede familiarizarse con Forms de la versión 6.5 de navegando por la interfaz de usuario de.
+En esta lección, se familiarizará con AEM 6.5 navegando por la interfaz de usuario.
 
 ### Ejercicio {#lesson-1-excercise}
 
@@ -77,11 +77,11 @@ AEM En esta lección, puede familiarizarse con Forms de la versión 6.5 de naveg
 
 ### Objetivo
 
-Cree un formulario adaptable con los componentes principales más recientes, configure y envíe el formulario.
+Cree un formulario adaptable utilizando los componentes principales más recientes, configúrelo y envíelo.
 
 ### Contexto de la lección
 
-En esta lección, como usuario empresarial, crea un formulario adaptable para varios canales, como web, móvil y chat, mediante el editor de Forms adaptable con componentes principales estandarizados listos para usar para capturar datos.
+En esta lección, como usuario empresarial, creará un formulario adaptable para varios canales como web, móvil y chat mediante el editor de formularios adaptables con componentes principales listos para usarse estandarizados para la captura de datos.
 
 ### Ejercicio
 
@@ -93,19 +93,19 @@ En esta lección, como usuario empresarial, crea un formulario adaptable para va
    1. Haga clic en **Crear un grupo público** y copie la dirección URL del punto final.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
-   Este extremo en particular sirve como ejemplo para enviar y ver datos. En la producción real, se utiliza un punto final propio o fuentes de datos para almacenar los datos capturados.
+   Este punto final en particular sirve como ejemplo para enviar y ver datos. En la producción real, se utiliza un punto final propio o fuentes de datos para almacenar los datos capturados.
 
-1. Crear un formulario adaptable:
+1. Cree un formulario adaptable:
 
-   1. En la pestaña del explorador que se utiliza en la lección 1, vaya a la interfaz web de AEM Forms y luego a **Forms** > **Forms y documentos**.
+   1. En la pestaña del explorador empleada en la Lección 1, vaya a la interfaz web de AEM Forms y a **Formularios** > **Formularios y documentos**.
 
    1. Haga clic en **Crear** y seleccione Formulario adaptable.
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
-   1. Seleccione el **En blanco con componentes principales** plantilla de la pantalla de selección de plantillas como se muestra a continuación y haga clic en **Siguiente**.
+   1. Seleccione la plantilla **En blanco con componentes principales** en la pantalla de selección de plantillas como se muestra a continuación y pulse **Siguiente**.
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
-   1. Especificar `Contact us` como el **Título** del formulario. Asegúrese de que la variable **Nombre** del formulario es `contact-us`.
+   1. Especifique `Contact us` como **Título** del formulario. Asegúrese de que la variable **Nombre** del formulario es `contact-us`.
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
    1. Haga clic en **Crear**. Se muestra un cuadro de diálogo.
@@ -121,15 +121,15 @@ En esta lección, como usuario empresarial, crea un formulario adaptable para va
       ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
 
 
-   1. Abra el Explorador de contenido, haga clic en el icono Propiedades del contenedor de guía y abra el **Envío** pestaña. Seleccione el **Enviar al extremo REST** Acción de envío, seleccione **Habilitar solicitud de POST** y especifique el extremo REST creado en la lección 2 en la **URL de la solicitud del POST** y haga clic en el **Listo** icono.
+   1. Abra el Explorador de contenido, haga clic en el icono Propiedades del contenedor de guía y abra la pestaña **Envío**. Seleccione la acción de envío **Enviar al punto final REST**, seleccione la opción **Habilitar petición POST**, especifique el punto final REST creado en la lección 2 en la **URL de la petición POST** y haga clic en el icono **Listo**.
 
       ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
 
-1. Publicar un formulario adaptable:
+1. Publique un formulario adaptable:
 
-   1. AEM Abra la interfaz de usuario, navegue hasta **Forms** > **Forms y documentos**. Seleccione el formulario creado en el paso anterior y haga clic en **Publish**.
+   1. Abra la interfaz de usuario de AEM, vaya hasta **Formularios** > **Formularios y documentos**. Seleccione el formulario creado en el paso anterior y haga clic en **Publicar**.
 
-   1. En el cuadro de diálogo Publicar recursos, haga clic en **Publish**. Se muestra el mensaje de éxito.
+   1. En el cuadro de diálogo Publicar archivos, haga clic en **Publicar**. Se muestra el mensaje de éxito.
 
 ## Lección 3
 
@@ -149,13 +149,13 @@ Configure el repositorio local del tema:
 
    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
-1. En el Símbolo del sistema, utilice el siguiente comando para desplazarse a `c:\git` carpeta.
+1. En el símbolo del sistema, utilice el siguiente comando para ir hasta la carpeta `c:\git`.
 
    ```Shell
    cd git
    ```
 
-   Si la carpeta no existe, utilice el `md git` para crearlo.
+   Si la carpeta no existe, utilice el comando `md git` para crearla.
 
 1. Use el siguiente comando para clonar el código front-end del tema:
 
@@ -176,7 +176,7 @@ Configure el repositorio local del tema:
 
    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
 
-1. Cambie el nombre del `env_template` archivo a .env.  Para cambiar el nombre, haga clic con el botón derecho en el archivo **env_template** y seleccione la opción **Cambiar nombre**.
+1. Cambie el nombre del archivo `env_template` archivo a .env.  Para cambiar el nombre, haga clic con el botón derecho en el archivo **env_template** y seleccione la opción **Cambiar nombre**.
 
    ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
 
@@ -186,9 +186,9 @@ Configure el repositorio local del tema:
 
 1. Establezca los siguientes valores para las variables del archivo .env y guarde el archivo:
 
-   * **AEM URL_DE_LA**: especifique la URL de un **publicar** ejemplo. Por ejemplo, `https://localhost:4502/`
+   * **AEM_URL**: especifique la URL de una instancia **publicación**. Por ejemplo, `https://localhost:4502/`
 
-   * **AEM FORMULARIO_ADAPTABLE_**: especifique el nombre del formulario. Por ejemplo, `contact-us`.
+   * **AEM_ADAPTIVE_FORM**: especifique el nombre del formulario. Por ejemplo, `contact-us`.
 
    </br>
 
@@ -251,7 +251,7 @@ Procese el formulario en web/móvil y otras interfaces como un formulario sin en
 
 ### Contexto de la lección
 
-En esta lección, como desarrollador de front-end, aprenderá a procesar el formulario adaptable creado anteriormente como formulario sin encabezado mediante el marco de trabajo de diseño de espectro reactivo.
+En esta lección, como desarrollador de front-end, aprenderá a procesar el formulario adaptable creado anteriormente como un formulario sin encabezado mediante el marco de trabajo de diseño del espectro React.
 
 ### Ejercicio
 
@@ -261,13 +261,13 @@ Configure el repositorio local mediante el proyecto de inicio de reacción:
 
    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
-1. En el Símbolo del sistema, utilice el siguiente comando para desplazarse a `c:\git` carpeta.
+1. En el símbolo del sistema, utilice el siguiente comando para ir hasta la carpeta `c:\git`.
 
    ```Shell
    cd git
    ```
 
-1. Utilice el siguiente comando para clonar el proyecto de inicio React del formulario adaptable:
+1. Utilice el siguiente comando para clonar el proyecto de inicio de reacción del formulario adaptable:
 
    ```Shell
    git clone https://github.com/adobe/react-starter-kit-aem-headless-forms
@@ -290,7 +290,7 @@ Configure el repositorio local mediante el proyecto de inicio de reacción:
 
    ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
 
-Para procesar el formulario alojado en el entorno de publicación:
+Para procesar el formulario alojado en su entorno de publicación:
 
 1. Cambie el nombre del archivo env_template a .env. Para cambiar el nombre, haga clic con el botón derecho en el archivo **env_template** y seleccione la opción **Cambiar nombre**.
 
@@ -300,9 +300,9 @@ Para procesar el formulario alojado en el entorno de publicación:
 
 1. Establezca los siguientes valores para las variables del archivo .env. Después de actualizar las variables, guarde el archivo.
 
-   * **AEM URL_DE_LA**: especifique la URL del entorno de publicación. Por ejemplo, `https://localhost:4503/`
+   * **AEM_URL**: especifique la URL del entorno de publicación. Por ejemplo, `https://localhost:4503/`
 
-   * **AEM RUTA_FORMULARIO_DE_**: especifique la ruta del formulario adaptable creado en la lección anterior. Por ejemplo, `/content/forms/af/contact-us/`
+   * **AEM_FORM_PATH**: especifique la ruta del formulario adaptable creado en la lección anterior. Por ejemplo, `/content/forms/af/contact-us/`
 
    </br>
 
@@ -338,23 +338,23 @@ Haga cambios en el formulario del servidor como usuario empresarial y vea los ca
 
 1. Abra la interfaz de administración de AEM Forms en el explorador. Por ejemplo, [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
 
-1. Seleccione el **Contáctenos.** y haga clic en **Editar.** Se abrirá el formulario en el editor de Forms adaptable.
+1. Seleccione el formulario **Contáctenos** y haga clic en **Editar.** Abre el formulario en el editor de formularios adaptables.
 
 
-1. Seleccione el **Número de contacto** y haga clic en el **Icono Editar (icono de lápiz)** en la barra de herramientas. Si no puede ver la barra de herramientas emergente, cambie al modo de edición haciendo clic en el botón **Editar** en la parte superior derecha, a la izquierda del botón **Vista previa**.
+1. Seleccione el campo **Número de contacto** y haga clic en el **icono Editar (icono de lápiz)** en la barra de herramientas. Si no puede ver la barra de herramientas emergente, cambie al modo de edición haciendo clic en el botón **Editar** en la parte superior derecha, a la izquierda del botón **Vista previa**.
 
    ![](/help/assets/change-field-title.png){width="50%" align="left"}
 
-1. Cambie la etiqueta a **Número móvil**. Haga clic en cualquier espacio vacío del formulario y se guardarán los cambios realizados en él.
+1. Cambie la etiqueta a **Número de móvil**. Haga clic en cualquier espacio vacío del formulario y se guardarán los cambios realizados en él.
 
 Publique el formulario actualizado para propagar los cambios al entorno de publicación.
 
-1. En la pestaña Interfaz de administración de AEM Forms, seleccione el formulario de contacto y haga clic en **Cancelar publicación**. Si no ve el botón **Cancelar la publicación**, vaya al paso 3 para publicar los cambios directamente.
+1. En la pestaña de la interfaz de administración de AEM Forms, seleccione el formulario de contacto y haga clic en **Cancelar la publicación**. Si no ve el botón **Cancelar la publicación**, vaya al paso 3 para publicar los cambios directamente.
 
 
 1. Haga clic en **Cancelar la publicación**. Haga clic en **Cerrar** en el cuadro de diálogo correspondiente.
 
-1. Una vez que se actualice el explorador, seleccione el formulario de contacto y haga clic en **Publish**.
+1. Después de actualizar el explorador, seleccione el formulario de contacto y haga clic en **Publicar**.
 
 
 1. Haga clic en **Publicar**. Haga clic en **Cerrar** en el cuadro de diálogo correspondiente.
@@ -376,7 +376,7 @@ Procesar el formulario como un formulario sin encabezado utilizando la IU de Goo
 
 ### Contexto de la lección
 
-En esta lección, como desarrollador front-end, aprenderá a procesar el formulario adaptable creado anteriormente como formulario sin encabezado mediante la interfaz de usuario de Material de Google.
+En esta lección, como desarrollador de front-end, aprenderá a procesar el formulario adaptable creado anteriormente como un formulario sin encabezado mediante la IU de Google Material.
 
 ### Ejercicio
 
@@ -386,7 +386,7 @@ Configure el repositorio local mediante el proyecto de inicio de la IU de Materi
 
    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
-1. En el Símbolo del sistema, utilice el siguiente comando para desplazarse a `c:\git` carpeta.
+1. En el símbolo del sistema, utilice el siguiente comando para ir hasta la carpeta `c:\git`.
 
    ```Shell
    cd git
@@ -400,7 +400,7 @@ Configure el repositorio local mediante el proyecto de inicio de la IU de Materi
    cd mui
    ```
 
-1. Utilice el siguiente comando para clonar el proyecto de inicio React del formulario adaptable:
+1. Utilice el siguiente comando para clonar el proyecto de inicio de reacción del formulario adaptable:
 
    ```Shell
    git clone -b mui-lab https://github.com/adobe/react-starter-kit-aem-headless-forms
@@ -418,7 +418,7 @@ Configure el repositorio local mediante el proyecto de inicio de la IU de Materi
 
    ![](/help/assets/screenshot2028126829.png)
 
-Para procesar el formulario alojado en el entorno de publicación:
+Para procesar el formulario alojado en su entorno de publicación:
 
 1. Cambie el nombre del archivo **env_template** a **.env**. Para cambiar el nombre, haga clic con el botón derecho en el archivo **env_template** y seleccione **Cambiar nombre**.
 
@@ -426,9 +426,9 @@ Para procesar el formulario alojado en el entorno de publicación:
 
 1. Establezca los siguientes valores para las variables del archivo .env. Después de actualizar las variables, guarde el archivo. Utilice la combinación de teclas **CTRL + S** para guardar el archivo.
 
-   * **AEM URL_DE_LA**: especifique la URL del entorno de publicación. Por ejemplo, [https://localhost:4503](https://localhost:4503)
+   * **AEM_URL**: especifique la URL del entorno de publicación. Por ejemplo, [https://localhost:4503](https://localhost:4503)
 
-   * **AEM RUTA_FORMULARIO_DE_**: especifique la ruta del formulario adaptable creado en la lección anterior. Por ejemplo, /content/forms/af/contact-us/
+   * **AEM_FORM_PATH**: especifique la ruta del formulario adaptable creado en la lección anterior. Por ejemplo, /content/forms/af/contact-us/
 
 
 1. Abra la ventana de comandos, asegúrese de que está en el directorio **react-starter-kit-aem-headless-forms** y ejecute el siguiente comando:
@@ -463,7 +463,7 @@ Crear una apariencia alternativa del formulario sin encabezado mediante las vari
 
 ### Contexto de la lección
 
-En esta lección, como desarrollador front-end, aprenderá a crear una representación alternativa de diferentes componentes mediante la interfaz de usuario de Material para el formulario adaptable creado anteriormente por el usuario empresarial.
+En esta lección, como desarrollador front-end, aprenderá a crear una representación alternativa de diferentes componentes mediante la IU de Material para el formulario adaptable creado anteriormente por el usuario empresarial.
 
 ### Ejercicio
 
@@ -507,7 +507,7 @@ Actualice la variación de los componentes en el proyecto sin encabezado. Cambia
 
 +++ ¿Los componentes principales están disponibles públicamente?
 
-Sí, los componentes principales de Forms AEM adaptables están disponibles con Forms 6.5 y Forms como Cloud Service de la versión de. Se necesita el paquete de servicio 16 o posterior de AEM Forms 6.5 para utilizar los componentes principales de Forms adaptable.
+Sí, los componentes principales de formularios adaptables están disponibles con AEM 6.5 Forms as Cloud Service. Necesita el Service Pack 16 o posterior de AEM Forms 6.5 para utilizar los componentes principales de formularios adaptables.
 
 +++
 
@@ -522,13 +522,13 @@ No, los formularios sin encabezado utilizan la misma métrica de valor de licenc
 
 ## Pasos siguientes
 
-Ahora que ha aprendido a crear Forms adaptable y a enviarlos a varios canales mediante formularios sin encabezado, debe intentar poner en práctica sus nuevas habilidades. Diviértase y siga creando y ofreciendo experiencias de captura de datos excepcionales a sus usuarios finales, donde estén, a mayor escala.
+Ahora que ha aprendido a crear formularios adaptables y distribuirlos en varios canales mediante formularios sin encabezado, intente poner en práctica sus nuevas habilidades. Diviértase y siga creando y ofreciendo experiencias de captura de datos excepcionales a sus usuarios finales, donde estén, a mayor escala.
 
 ## Recursos
 
-* [Introducción a los componentes principales de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=es)
+* [Introducción a los componentes principales del formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=es)
 
-* [Crear formularios adaptables mediante componentes principales](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Creación de formularios adaptables con componentes principales](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
 
 * [Actualización del estilo para el AF basado en componentes principales](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=es)
 

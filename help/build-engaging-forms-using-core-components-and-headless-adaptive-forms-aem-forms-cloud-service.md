@@ -8,13 +8,13 @@ hide: true
 hidefromtoc: true
 exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
 source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Creación de formularios atractivos con componentes principales y sin encabezado As a Cloud Service de Forms adaptable en AEM Forms {#build-engaging-forms-using-core-components-and-headless}
+# Creación de formularios atractivos con componentes principales y sin encabezado Habilitación de formularios adaptables sin encabezado en AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Información general del laboratorio {#lab-overview}
 
@@ -34,13 +34,13 @@ Cómo utilizar AEM Forms para crear fácilmente formularios adaptables utilizand
 
 Para usar este laboratorio práctico:
 
-* Instale el [última versión de Git](https://git-scm.com/downloads). Si es nuevo en Git, consulte [Instalación de Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* Instale la [última versión de Git](https://git-scm.com/downloads). Si es nuevo en Git, consulte [Instalación de Git](https://git-scm.com/book/es/v2/Getting-Started-Installing-Git).
 
-* Instalar [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Instale [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [Habilitar Forms adaptable sin encabezado](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno as a Cloud Service de AEM Forms.
+* [Habilite formularios adaptables sin encabezado](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno AEM Forms as a Cloud Service.
 
-* Instalar [Microsoft Visual Studio Code](https://code.visualstudio.com/download) o cualquier editor de texto sin formato. Los ejemplos del documento utilizan código de Microsoft Visual Studio.
+* Instale [Microsoft Visual Studio Code](https://code.visualstudio.com/download) o cualquier editor de texto sin formato. Los ejemplos del documento utilizan código de Microsoft Visual Studio Code.
 
 
 
@@ -61,7 +61,7 @@ En esta lección, puede familiarizarse con el entorno de AEM Forms as a Cloud Se
 
 1. Inicie sesión en el entorno de creación de Cloud Service.
 
-1. Para desplazarse a la interfaz de usuario de AEM Forms, haga clic en **Forms > Forms y documentos**.
+1. Para ir hasta la interfaz de usuario de AEM Forms, haga clic en **Formularios > Formularios y documentos**.
 
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
@@ -110,7 +110,7 @@ En esta lección, como usuario empresarial, creará un formulario adaptable para
 
    1. Haga clic en **Crear**. Especifique un nombre y título para el formulario. Por ejemplo, **registro**. Haga clic en **Crear**.
 
-   1. Se abre el editor de formularios adaptables. Descarte cualquier ventana emergente o diálogo para obtener preferencias o información. Haga clic en el explorador de componentes en el carril izquierdo y añada **Header** y **Pie** componentes, respectivamente, en la parte superior e inferior del formulario en blanco.
+   1. Se abre el editor de formularios adaptables. Descarte cualquier ventana emergente o diálogo para obtener preferencias o información. Haga clic en el explorador de componentes en el carril izquierdo y añada los componentes **Encabezado** y **Pie de página**, respectivamente, en la parte superior e inferior del formulario en blanco.
       ![](/help/assets/screenshot2028121929.png)
 
    1. Arrastre y suelte los componentes desde el Explorador de componentes para crear un formulario, de forma similar a lo siguiente:
@@ -144,13 +144,13 @@ En esta lección, como usuario empresarial, creará un formulario adaptable para
 
 1. Agregue interactividad al formulario con reglas:
 
-   1. Haga clic en **Marque la casilla para recibir un 5% de descuento** componente. En la barra de herramientas de opciones, haga clic en el icono Reglas. Se abre la opción Editor de reglas.
+   1. Haga clic en el componente **Marque la casilla para recibir un 5 % de descuento**. En la barra de herramientas de opciones, haga clic en el icono Reglas. Se abre la opción Editor de reglas.
 
-   1. Crear una regla, cuando la variable **Marque la casilla para recibir un 5% de descuento** está seleccionada, las opciones para aplicar tarjeta de crédito están desactivadas.
+   1. Cree una regla: cuando la opción **Marque la casilla para recibir un 5 % de descuento** está seleccionada, las opciones para aplicar tarjeta de crédito están desactivadas.
 
 1. Publicar el formulario.
 
-   1. Abra la interfaz de administración de AEM Forms, por ejemplo,. `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`y seleccione el formulario.
+   1. Abra la interfaz de administración de AEM Forms, por ejemplo, `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments` y seleccione el formulario.
 
    1. Haga clic en **Publicar**.
 
@@ -379,7 +379,7 @@ Haga cambios en el formulario del servidor como usuario empresarial y vea los ca
 
 1. Abra la interfaz de administración de AEM Forms en el explorador. Por ejemplo, [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments).
 
-1. Seleccione el **contacto** y haga clic en **Editar.** Abre el formulario en el editor de formularios adaptables.
+1. Seleccione el formulario **Contáctenos** y haga clic en **Editar.** Abre el formulario en el editor de formularios adaptables.
 
 
 1. Seleccione el campo **Número de teléfono** y haga clic en el **icono Editar (icono de lápiz)** en la barra de herramientas. Si no puede ver la barra de herramientas emergente, cambie al modo de edición haciendo clic en el botón **Editar** en la parte superior derecha, a la izquierda del botón **Vista previa**.
