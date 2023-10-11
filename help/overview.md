@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: CMS sin encabezado, formularios adaptables, IU sin encabezado, CMS con encabezado, asistentes de voz, Alexa, bots de chat, arquitectura de WhatsApp
 hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: a88f2dab6fda61b674300e1d6a6c4f495ba85c97
 workflow-type: ht
-source-wordcount: '400'
+source-wordcount: '353'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,9 @@ Cualquier desarrollador front-end familiarizado con los marcos de trabajo de Jav
 
 No necesita tener conocimientos previos de Adobe Experience Manager para desarrollar formularios adaptables sin encabezado.
 
-## ¿Cómo participar en el programa para primeros usuarios? {#how-to-join-early-adopter-forms}
+<!-- 
+## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
-El servicio está disponible para los clientes a plazo locales de AEM Forms as a Cloud Service y AEM 6.5.16.0 Forms o posterior, así como para clientes empresariales de servicio administrado por Adobe. Puede enviar un correo electrónico a [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) desde su ID de correo electrónico oficial para unirse al programa de primeros usuarios.
+The service is available for AEM Forms as a Cloud Service and AEM 6.5.16.0 Forms or later On-Premise term customers and Adobe-Managed Service enterprise customers. Send an email to [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) from your official email ID to join the early adopter program. 
+
+-->
