@@ -6,11 +6,11 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 hide: true
 hidefromtoc: true
-exl-id: d0ca7389-9a7a-421e-ab6b-7845813d860e
-source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
+source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+workflow-type: tm+mt
+source-wordcount: '2480'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Para usar este laboratorio práctico:
 
 * Instale [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [Habilite formularios adaptables sin encabezado](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno AEM Forms as a Cloud Service.
+* [Habilitar los componentes principales de Forms adaptable](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno as a Cloud Service de AEM Forms.
 
 * Instale [Microsoft Visual Studio Code](https://code.visualstudio.com/download) o cualquier editor de texto sin formato. Los ejemplos del documento utilizan código de Microsoft Visual Studio Code.
 
