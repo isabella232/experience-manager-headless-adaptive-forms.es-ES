@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2480'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Para usar este laboratorio práctico:
 
 * Instale [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
 
-* [Habilitar los componentes principales de Forms adaptable](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno as a Cloud Service de AEM Forms.
+* [Habilite los componentes principales de formularios adaptables](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno de AEM Forms as a Cloud Service.
 
 * Instale [Microsoft Visual Studio Code](https://code.visualstudio.com/download) o cualquier editor de texto sin formato. Los ejemplos del documento utilizan código de Microsoft Visual Studio Code.
 
