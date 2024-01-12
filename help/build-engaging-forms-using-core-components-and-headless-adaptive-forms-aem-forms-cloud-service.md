@@ -9,12 +9,12 @@ hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
 workflow-type: ht
-source-wordcount: '2480'
+source-wordcount: '2398'
 ht-degree: 100%
 
 ---
 
-# Creación de formularios atractivos con componentes principales y sin encabezado Habilitación de formularios adaptables sin encabezado en AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
+# Genere formularios atractivos utilizando componentes principales y formularios adaptables sin encabezado en AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 
 ## Información general del laboratorio {#lab-overview}
 

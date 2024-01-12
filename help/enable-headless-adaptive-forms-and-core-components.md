@@ -5,10 +5,10 @@ description: Aprenda a habilitar formularios adaptables sin encabezado en AEM 6.
 seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
 contentOwner: Khushwant Singh
 role: Admin
-exl-id: c5a7dee1-b177-4461-b9bd-af40ef59ad80
-source-git-commit: f489a2ba818db44ccd92df80a177f0e9f3a1bc2c
+exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
+source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
 workflow-type: ht
-source-wordcount: '752'
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
