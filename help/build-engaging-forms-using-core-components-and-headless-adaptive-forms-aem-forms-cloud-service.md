@@ -5,10 +5,10 @@ description: Creación de formularios atractivos con componentes principales y s
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -84,9 +84,9 @@ En esta lección, como usuario empresarial, creará un formulario adaptable para
 1. Cree un punto final de envío para el formulario:
 
    1. Abra <https://requestbin.com/> en una nueva pestaña del explorador.
+   1. Haga clic en **Crear un grupo público** y copie la dirección URL del punto final.
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. Haga clic en **Crear un grupo público** y copie la dirección URL del punto final.
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. Cree un formulario adaptable mediante la interfaz del asistente:
@@ -103,8 +103,7 @@ En esta lección, como usuario empresarial, creará un formulario adaptable para
    1. Haga clic en la pestaña **Estilo** y seleccione **wknd-theme** como se muestra a continuación:
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Haga clic en la pestaña **Envío** y seleccione la tarjeta **Enviar al punto final de REST** y especifique el grupo público en
-      el campo **URL de la petición POST** como se muestra a continuación:
+   1. Haga clic en **Envío** y seleccione la pestaña **Enviar al punto final REST** y especifique la bandeja pública en la **URL de la solicitud del POST** como se muestra a continuación:
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Haga clic en **Crear**. Especifique un nombre y título para el formulario. Por ejemplo, **registro**. Haga clic en **Crear**.
@@ -115,10 +114,6 @@ En esta lección, como usuario empresarial, creará un formulario adaptable para
    1. Arrastre y suelte los componentes desde el Explorador de componentes para crear un formulario, de forma similar a lo siguiente:
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. Agregue validaciones al formulario:
 
@@ -242,7 +237,7 @@ Configure el repositorio local del tema:
 
    >[!NOTE]
    >
-   > * Si recibe un mensaje pidiendo que actualice npm a través del comando `npm notice Run npm nstall -g npm@9.6.0`, ignore el mensaje.
+   > * Si recibe un mensaje pidiéndole que actualice npm a través de `npm notice Run npm nstall -g npm@9.6.0` , ignore el mensaje.
    > * No ejecute otros comandos npm a menos que se indique en el libro de trabajo.
 
 1. Ejecute el siguiente comando para obtener una vista previa del formulario.
