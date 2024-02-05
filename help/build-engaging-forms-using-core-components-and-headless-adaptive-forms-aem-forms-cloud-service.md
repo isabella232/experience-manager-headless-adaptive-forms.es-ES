@@ -4,13 +4,11 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: Creación de formularios atractivos con componentes principales y sin encabezado
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
-workflow-type: ht
-source-wordcount: '2398'
-ht-degree: 100%
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+workflow-type: tm+mt
+source-wordcount: '2452'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +34,7 @@ Para usar este laboratorio práctico:
 
 * Instale la [última versión de Git](https://git-scm.com/downloads). Si es nuevo en Git, consulte [Instalación de Git](https://git-scm.com/book/es/v2/Getting-Started-Installing-Git).
 
-* Instale [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* Instale [Node.js 16.13.0 o posterior](https://nodejs.org/es/download/). Si no tiene experiencia previa con Node.js, consulte [Cómo instalar Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [Habilite los componentes principales de formularios adaptables](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) para su entorno de AEM Forms as a Cloud Service.
 
@@ -60,10 +58,11 @@ En esta lección, puede familiarizarse con el entorno de AEM Forms as a Cloud Se
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
 1. Inicie sesión en el entorno de creación de Cloud Service.
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. Para ir hasta la interfaz de usuario de AEM Forms, haga clic en **Formularios > Formularios y documentos**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -225,6 +224,13 @@ Configure el repositorio local del tema:
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
+1. AEM Cree un usuario local en el entorno de la.
+
+   >[!NOTE]
+   > Para crear un usuario local, haga lo siguiente:
+   > Ir a `AEM Home` > `Tools` > `Security` > `Users`
+   > Asegúrese de que el usuario sea miembro del grupo forms-users.
+
 
 1. En la ventana Símbolo del sistema, ejecute el siguiente comando:
 
@@ -247,7 +253,10 @@ Configure el repositorio local del tema:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Una vez ejecutado el comando anterior, espere al mensaje `webpack compiled`. El formulario se muestra en la pestaña del explorador.
+   Una vez ejecutado el comando anterior, espere a que `webpack compiled` AEM y se le redirigirá a una página de inicio de sesión en la que podrá iniciar sesión con el mensaje de correo electrónico de.
+
+1. Clic **Iniciar sesión localmente (solo para tareas de administración)** AEM en la página de inicio de sesión de.
+1. Introduzca las credenciales del usuario local creado y el formulario se mostrará en una pestaña del explorador.
 
    >[!NOTE]
    >
