@@ -8,7 +8,7 @@ exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -219,12 +219,12 @@ Configure el repositorio local del tema:
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
-1. AEM Cree un usuario local en el entorno de la.
+1. Cree un usuario local en el entorno AEM.
 
    >[!NOTE]
    > Para crear un usuario local, haga lo siguiente:
-   > Ir a `AEM Home` > `Tools` > `Security` > `Users`
-   > Asegúrese de que el usuario sea miembro del grupo forms-users.
+   > Vaya a `AEM Home` > `Tools` > `Security` > `Users`
+   > Asegúrese de que el usuario sea miembro del grupo de usuarios de formularios.
 
 
 1. En la ventana Símbolo del sistema, ejecute el siguiente comando:
@@ -248,9 +248,9 @@ Configure el repositorio local del tema:
 
    ![](/help/assets/screenshot2028117229.png)
 
-   Una vez ejecutado el comando anterior, espere a que `webpack compiled` AEM y se le redirigirá a una página de inicio de sesión en la que podrá iniciar sesión con el mensaje de correo electrónico de.
+   Una vez ejecutado el comando anterior, espere al mensaje de `webpack compiled` y se le redirigirá a una página de inicio de sesión de AEM.
 
-1. Clic **Iniciar sesión localmente (solo para tareas de administración)** AEM en la página de inicio de sesión de.
+1. Haga clic en **Iniciar sesión localmente (solo para tareas de administración)** en la página de inicio de sesión de AEM.
 1. Introduzca las credenciales del usuario local creado y el formulario se mostrará en una pestaña del explorador.
 
    >[!NOTE]
