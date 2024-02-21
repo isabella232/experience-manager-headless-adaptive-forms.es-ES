@@ -5,10 +5,10 @@ user-guide-description: Documentación de formularios adaptables sin encabezado 
 feature: Adaptive Forms
 role: Developer
 hide: false
-source-git-commit: b1e62aa73d5f442c8d025202f3bad31c0f82a113
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 6fbc8605163c5f5415cadf5c19c96e1f68a23841
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 100%
 # Formularios adaptables sin encabezado de Adobe Experience Manager {#using}
 
 + [Información general](overview.md)
++ [Pruebas generales](overview-testing.md)
 + [Arquitectura](architecture.md)
 + Configuración rápida {#quick-setup}
    + [Habilitación de formularios adaptables sin encabezado en AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
