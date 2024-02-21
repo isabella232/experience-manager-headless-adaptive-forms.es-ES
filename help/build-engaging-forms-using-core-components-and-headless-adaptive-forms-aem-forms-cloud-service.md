@@ -6,9 +6,9 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2452'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ En esta lección, como usuario empresarial, creará un formulario adaptable para
    1. Haga clic en la pestaña **Estilo** y seleccione **wknd-theme** como se muestra a continuación:
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. Haga clic en **Envío** y seleccione la pestaña **Enviar al punto final REST** y especifique la bandeja pública en la **URL de la solicitud del POST** como se muestra a continuación:
+   1. Haga clic en la pestaña **Envío** y seleccione la tarjeta **Enviar al punto final de REST** y especifique el grupo público en el campo **URL de la petición POST** como se muestra a continuación:
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. Haga clic en **Crear**. Especifique un nombre y título para el formulario. Por ejemplo, **registro**. Haga clic en **Crear**.
@@ -237,7 +237,7 @@ Configure el repositorio local del tema:
 
    >[!NOTE]
    >
-   > * Si recibe un mensaje pidiéndole que actualice npm a través de `npm notice Run npm nstall -g npm@9.6.0` , ignore el mensaje.
+   > * Si recibe un mensaje pidiendo que actualice npm a través del comando `npm notice Run npm nstall -g npm@9.6.0`, ignore el mensaje.
    > * No ejecute otros comandos npm a menos que se indique en el libro de trabajo.
 
 1. Ejecute el siguiente comando para obtener una vista previa del formulario.
