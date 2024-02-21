@@ -31,7 +31,7 @@ Los formularios adaptables sin encabezado le ayudan a:
 
 Además, tiene la libertad de desarrollar sus propios componentes para procesar un formulario con cualquier marco de trabajo de IU y lenguaje de programación de su elección. También puede utilizar los componentes de React disponibles de forma predeterminada para procesar un formulario adaptable sin encabezado.
 
-## Características principales
+## Funciones principales
 
 <!-- 
 
